@@ -11,6 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the application code
+# copy the rest of the application i right this comment agina to test my workflow work right or not 
 COPY . .
 
 # ------------------- Stage 2: Final Stage ------------------------------
